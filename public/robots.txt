@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Allow: /templates
+Allow: /pricing
+Allow: /help
+Allow: /login
+
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /chat/
+
+Sitemap: https://chat2site.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
